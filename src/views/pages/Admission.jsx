@@ -124,10 +124,24 @@ const Admission = (props) => {
               <input type="text" placeholder="Digite aqui..." id="tipoAdmissao" />
             </div>
             <div className="box">
-              <label htmlFor="numeroPreadmissao">Número da pré-admissão: </label>
-              <input type="text" placeholder="Digite aqui..." id="numeroPreadmissao" />
+              <label htmlFor="numeroPreAdmissao">Número da pré-admissão: </label>
+              <input type="text" placeholder="Digite aqui..." id="numeroPreAdmissao" />
             </div>
           </div>
+        </section>
+        <section className="theme-section">
+            <h3>Localização prévia do paciente</h3>
+            <div className="inner-section">
+                <h4>Instalação</h4>
+                <div className="box">
+                    <label htmlFor="idInstalacao">ID do local: </label>
+                    <input type="text" placeholder="Digite aqui..." id="idInstalacao" />
+                </div>
+                <div className="box">
+                    <label htmlFor="idUniversalInstalacao">ID universal: </label>
+                    <input type="text" placeholder="Digite aqui..." id="idUniversalInstalacao" />
+                </div>
+            </div>
         </section>
       </form>
     </div>
