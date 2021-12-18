@@ -5,3 +5,38 @@
   padding: 45px;
   color: #333;
 }
+
+.theme-section {
+  margin: 20px 0;
+}
+
+.theme-section input {
+  padding: 8px 5px;
+  width: 60%;
+  outline: none;
+  font-size: 16px;
+}
+
+input
+
+#patientClassification  {
+  padding: 8px 5px;
+  outline: none;
+}
+
+.theme-section select {
+  padding: 8px 5px;
+  outline: none;
+}
+
+.box {
+  margin: 10px 0;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#dataAdmissao {
+  width: 200px;
+}
